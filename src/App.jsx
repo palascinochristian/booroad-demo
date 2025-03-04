@@ -4,6 +4,7 @@ import DefaultLayout from "./layouts/DefaultLayout";
 //Pages
 import Home from "./pages/Home";
 import TripPage from "./pages/TripPage";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function App() {
   return (

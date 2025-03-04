@@ -1,3 +1,7 @@
 export default function Header() {
-  return <h1>BooRoad</h1>;
+  return (
+    <header className="bg-white p-4 shadow-lg sticky top-0 text-center">
+      <h1>BooRoad - Demo</h1>
+    </header>
+  );
 }

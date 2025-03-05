@@ -2,6 +2,8 @@ const trips = [
   {
     id: 1,
     destination: "Norway - Cities and Fjords",
+    destination_image:
+      "https://cdn.audleytravel.com/2799/1999/79/15993621-norwegian-fjords.jpg",
     startDate: "2023-11-15",
     endDate: "2023-11-22",
     groupLeader: { firstName: "Marco", lastName: "Rossi" },
@@ -55,6 +57,8 @@ const trips = [
   {
     id: 2,
     destination: "Portugal",
+    destination_image:
+      "https://www.state.gov/wp-content/uploads/2023/07/shutterstock_1714807885v2.jpg",
     startDate: "2023-12-01",
     endDate: "2023-12-08",
     groupLeader: { firstName: "Anna", lastName: "Conti" },
@@ -108,6 +112,8 @@ const trips = [
   {
     id: 3,
     destination: "Morocco",
+    destination_image:
+      "https://www.goafrique.it/wp-content/uploads/sites/118/2020/10/Gran-Tour-del-Marocco_646014336_L.jpg",
     startDate: "2024-01-10",
     endDate: "2024-01-17",
     groupLeader: { firstName: "Giovanni", lastName: "Rizzo" },
@@ -161,6 +167,8 @@ const trips = [
   {
     id: 4,
     destination: "Indonesia",
+    destination_image:
+      "https://journhey-resource.s3.eu-south-1.amazonaws.com/country/id/id_what_1jpg",
     startDate: "2024-02-05",
     endDate: "2024-02-19",
     groupLeader: { firstName: "Laura", lastName: "Greco" },
@@ -214,6 +222,8 @@ const trips = [
   {
     id: 5,
     destination: "Thailand",
+    destination_image:
+      "https://images.lonelyplanetitalia.it/static/places/bangkok-355.jpg?q=90&p=96%7C96%7Ccrop&s=1c4471b8f7a0e1b6a2d0e317391e6653",
     startDate: "2024-03-15",
     endDate: "2024-03-26",
     groupLeader: { firstName: "Sara", lastName: "De Luca" },
@@ -267,6 +277,8 @@ const trips = [
   {
     id: 6,
     destination: "Chile",
+    destination_image:
+      "https://elitevoyage.com/wp-content/uploads/2022/11/chile-7-scaled.jpg",
     startDate: "2024-04-10",
     endDate: "2024-04-21",
     groupLeader: { firstName: "Lorenzo", lastName: "Vitale" },

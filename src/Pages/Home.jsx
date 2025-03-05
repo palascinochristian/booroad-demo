@@ -8,10 +8,12 @@ export default function Home() {
         <div className="col" key={trip.id}>
           <TripCard
             destination={trip.destination}
+            destination_image={trip.destination_image}
             startDate={trip.startDate}
             endDate={trip.endDate}
             groupLeader={trip.groupLeader}
             link={`trips/${trip.id}`}
+            participants={trip.participants}
           />
         </div>
       ))}

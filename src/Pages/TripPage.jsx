@@ -24,9 +24,9 @@ export default function TripPage() {
         </p>
         <p className="text-gray-600 mb-4">{trip.description}</p>
         <img
-          src="https://picsum.photos/1200/400"
+          src={trip.destination_image}
           alt="Trip"
-          className="w-full h-64 object-cover rounded-lg"
+          className="w-full h-64 object-cover rounded-lg object-center"
         />
       </div>
 

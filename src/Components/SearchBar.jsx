@@ -5,7 +5,7 @@ export default function SearchBar({ setter }) {
 
   const handleField = (value) => {
     setSearch(value);
-    setter(search);
+    setter(value);
   };
 
   const handleSubmit = (e) => {

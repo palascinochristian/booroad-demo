@@ -41,13 +41,21 @@ export default function AccordionComponent({ partecipant, name }) {
           <h2 className="font-medium">{`${partecipant.lastName} ${partecipant.firstName}`}</h2>
         </div>
 
-        {/* Icona + e - */}
-        <div className="text-gray-500 transition-transform duration-200">
-          {isActive ? (
-            <i className="fa-solid fa-minus text-lg"></i>
-          ) : (
-            <i className="fa-solid fa-plus text-lg"></i>
-          )}
+        {/* Icons */}
+        <div className="flex items-center gap-2">
+          <button className="text-gray-500 hover:text-green-200 transition duration-200 text-xs">
+            <i className="fa-solid fa-pencil-alt text-lg"></i>
+          </button>
+          <button className="text-gray-500 hover:text-red-500 transition duration-200 text-xs">
+            <i className="fa-solid fa-trash text-lg"></i>
+          </button>
+          <div className="text-gray-500 transition-transform duration-200">
+            {isActive ? (
+              <i className="fa-solid fa-minus text-lg"></i>
+            ) : (
+              <i className="fa-solid fa-plus text-lg"></i>
+            )}
+          </div>
         </div>
       </div>
 

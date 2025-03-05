@@ -12,10 +12,18 @@ export default function TripCard({
   return (
     <Link to={link} className="block">
       <div className="bg-white shadow-lg rounded-2xl w-75 border border-gray-200 transform transition duration-300 hover:scale-105 mx-auto">
-        <div className>
-          <h2 className=" bg-stone-700 rounded-t-2xl text-xl font-semibold text-gray-50 p-2 mb-0 z-10 relative shadow-[0px_5px_10px_rgba(0,0,0,0.4)]">
+        <div className="flex justify-between items-center bg-stone-700 rounded-t-2xl text-xl font-semibold text-gray-50 p-2 mb-0 z-10 relative shadow-[0px_5px_10px_rgba(0,0,0,0.4)]">
+          <span className="truncate w-full pr-4 overflow-hidden ml-2">
             {destination}
-          </h2>
+          </span>
+          <div className="flex gap-2">
+            <button className="text-gray-300 hover:text-green-400 transition duration-200 text-sm">
+              <i className="fa-solid fa-pencil-alt text-lg"></i>
+            </button>
+            <button className="text-gray-300 hover:text-red-500 transition duration-200 text-sm">
+              <i className="fa-solid fa-trash text-lg"></i>
+            </button>
+          </div>
         </div>
         <img
           className="h-50 w-80 object-cover object-center rounded-b-2xl"

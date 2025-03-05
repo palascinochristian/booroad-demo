@@ -26,13 +26,18 @@ export default function AccordionComponent({ partecipant, name }) {
   if (!show) return null;
 
   return (
-    <div className="m-auto max-w-6xl bg-white shadow-md rounded-md px-4 py-3 mb-2">
+    <div className="m-auto max-w-6xl bg-neutral-100 shadow-md rounded-md px-4 py-3 mb-2">
       {/* HEADER ACCORDION */}
       <div
         className="flex justify-between items-center cursor-pointer"
         onClick={handleClick}
       >
-        <div className="flex gap-3">
+        <div className="flex items-center gap-3">
+          <img
+            className="rounded-full border-2 border-white shadow-[0px_2px_5px_rgba(0,0,0,0.5)]"
+            src={partecipant.avatar}
+            alt=""
+          />
           <h1 className="font-medium">{partecipant.lastName}</h1>
           <h1 className="font-medium">{partecipant.firstName}</h1>
         </div>
@@ -50,15 +55,19 @@ export default function AccordionComponent({ partecipant, name }) {
       {/* CONTENUTO NASCOSTO */}
       {isActive && (
         <div className="mt-3 border-t pt-2 text-sm">
-          <div className="grid grid-cols-2 gap-2">
-            <p className="text-gray-500 text-right">EMAIL:</p>
-            <p className="font-medium">{partecipant.email}</p>
-
-            <p className="text-gray-500 text-right">CF:</p>
-            <p className="font-medium">{partecipant.codiceFiscale}</p>
-
-            <p className="text-gray-500 text-right">Cell:</p>
-            <p className="font-medium">+39 {partecipant.phone}</p>
+          <div className="flex flex-col">
+            <div className="flex items-center">
+              <p className="text-gray-500 w-14">EMAIL:</p>
+              <p className="font-medium">{partecipant.email}</p>
+            </div>
+            <div className="flex items-center mt-2">
+              <p className="text-gray-500 w-14">CF:</p>
+              <p className="font-medium">{partecipant.codiceFiscale}</p>
+            </div>
+            <div className="flex items-center mt-2">
+              <p className="text-gray-500 w-14">Cell: </p>
+              <p className="font-medium">{partecipant.phone}</p>
+            </div>
           </div>
         </div>
       )}

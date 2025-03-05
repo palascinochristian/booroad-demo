@@ -16,6 +16,7 @@ const trips = [
         codiceFiscale: "GLLBNC83M12H501X",
         email: "giulia.bianchi@example.com",
         phone: "+393331112233",
+        avatar: "https://i.pravatar.cc/40?img=1",
       },
       {
         firstName: "Luca",
@@ -23,6 +24,7 @@ const trips = [
         codiceFiscale: "LCVRDI84M13H502Y",
         email: "luca.verdi@example.com",
         phone: "+393332223344",
+        avatar: "https://i.pravatar.cc/40?img=2",
       },
       {
         firstName: "Sofia",
@@ -30,6 +32,7 @@ const trips = [
         codiceFiscale: "SFARSS85M14H503Z",
         email: "sofia.russo@example.com",
         phone: "+393333334455",
+        avatar: "https://i.pravatar.cc/40?img=3",
       },
       {
         firstName: "Matteo",
@@ -37,6 +40,7 @@ const trips = [
         codiceFiscale: "MTTFRR86M15H504W",
         email: "matteo.ferrari@example.com",
         phone: "+393334445566",
+        avatar: "https://i.pravatar.cc/40?img=4",
       },
       {
         firstName: "Alessia",
@@ -44,6 +48,7 @@ const trips = [
         codiceFiscale: "ALSSPT87M16H505V",
         email: "alessia.esposito@example.com",
         phone: "+393335556677",
+        avatar: "https://i.pravatar.cc/40?img=5",
       },
       {
         firstName: "Francesco",
@@ -51,6 +56,7 @@ const trips = [
         codiceFiscale: "FRCRMN88M17H506U",
         email: "francesco.romano@example.com",
         phone: "+393336667788",
+        avatar: "https://i.pravatar.cc/40?img=6",
       },
     ],
   },
@@ -71,6 +77,7 @@ const trips = [
         codiceFiscale: "ELNGLI89M18H507T",
         email: "elena.galli@example.com",
         phone: "+393337778899",
+        avatar: "https://i.pravatar.cc/40?img=7",
       },
       {
         firstName: "Davide",
@@ -78,6 +85,7 @@ const trips = [
         codiceFiscale: "DVDMCH90M19H508S",
         email: "davide.marchetti@example.com",
         phone: "+393338889900",
+        avatar: "https://i.pravatar.cc/40?img=8",
       },
       {
         firstName: "Chiara",
@@ -85,6 +93,7 @@ const trips = [
         codiceFiscale: "CHRMRT91M20H509R",
         email: "chiara.moretti@example.com",
         phone: "+393339990011",
+        avatar: "https://i.pravatar.cc/40?img=9",
       },
       {
         firstName: "Gabriele",
@@ -92,6 +101,7 @@ const trips = [
         codiceFiscale: "GBRBRB92M21H510Q",
         email: "gabriele.barbieri@example.com",
         phone: "+393340001122",
+        avatar: "https://i.pravatar.cc/40?img=10",
       },
       {
         firstName: "Martina",
@@ -99,6 +109,7 @@ const trips = [
         codiceFiscale: "MRTFRR93M22H511P",
         email: "martina.ferrara@example.com",
         phone: "+393341112233",
+        avatar: "https://i.pravatar.cc/40?img=11",
       },
       {
         firstName: "Simone",
@@ -106,6 +117,7 @@ const trips = [
         codiceFiscale: "SMNSTR94M23H512O",
         email: "simone.santoro@example.com",
         phone: "+393342223344",
+        avatar: "https://i.pravatar.cc/40?img=12",
       },
     ],
   },
@@ -126,6 +138,7 @@ const trips = [
         codiceFiscale: "VLNMNC95M24H513N",
         email: "valentina.mancini@example.com",
         phone: "+393343334455",
+        avatar: "https://i.pravatar.cc/40?img=13",
       },
       {
         firstName: "Riccardo",
@@ -133,6 +146,7 @@ const trips = [
         codiceFiscale: "RCCLNG96M25H514M",
         email: "riccardo.longo@example.com",
         phone: "+393344445566",
+        avatar: "https://i.pravatar.cc/40?img=14",
       },
       {
         firstName: "Alessandra",
@@ -140,6 +154,7 @@ const trips = [
         codiceFiscale: "ALSLNE97M26H515L",
         email: "alessandra.leone@example.com",
         phone: "+393345556677",
+        avatar: "https://i.pravatar.cc/40?img=15",
       },
       {
         firstName: "Federico",
@@ -147,6 +162,7 @@ const trips = [
         codiceFiscale: "FDRMRT98M27H516K",
         email: "federico.martini@example.com",
         phone: "+393346667788",
+        avatar: "https://i.pravatar.cc/40?img=16",
       },
       {
         firstName: "Elisa",
@@ -154,6 +170,7 @@ const trips = [
         codiceFiscale: "ELSCPP99M28H517J",
         email: "elisa.coppola@example.com",
         phone: "+393347778899",
+        avatar: "https://i.pravatar.cc/40?img=17",
       },
       {
         firstName: "Daniele",
@@ -161,6 +178,7 @@ const trips = [
         codiceFiscale: "DNLPRS00M29H518I",
         email: "daniele.parisi@example.com",
         phone: "+393348889900",
+        avatar: "https://i.pravatar.cc/40?img=18",
       },
     ],
   },
@@ -181,6 +199,7 @@ const trips = [
         codiceFiscale: "RBRMRN01M30H519H",
         email: "roberto.marino@example.com",
         phone: "+393349990011",
+        avatar: "https://i.pravatar.cc/40?img=19",
       },
       {
         firstName: "Silvia",
@@ -188,6 +207,7 @@ const trips = [
         codiceFiscale: "SLVGRD02M31H520G",
         email: "silvia.giordano@example.com",
         phone: "+393350001122",
+        avatar: "https://i.pravatar.cc/40?img=20",
       },
       {
         firstName: "Paolo",
@@ -195,6 +215,7 @@ const trips = [
         codiceFiscale: "PAOSRR03M32H521F",
         email: "paolo.serra@example.com",
         phone: "+393351112233",
+        avatar: "https://i.pravatar.cc/40?img=21",
       },
       {
         firstName: "Greta",
@@ -202,6 +223,7 @@ const trips = [
         codiceFiscale: "GRTPLL04M33H522E",
         email: "greta.pellegrini@example.com",
         phone: "+393352223344",
+        avatar: "https://i.pravatar.cc/40?img=22",
       },
       {
         firstName: "Antonio",
@@ -209,6 +231,7 @@ const trips = [
         codiceFiscale: "ANTVLL05M34H523D",
         email: "antonio.villa@example.com",
         phone: "+393353334455",
+        avatar: "https://i.pravatar.cc/40?img=23",
       },
       {
         firstName: "Beatrice",
@@ -216,6 +239,7 @@ const trips = [
         codiceFiscale: "BTRRVA06M35H524C",
         email: "beatrice.riva@example.com",
         phone: "+393354445566",
+        avatar: "https://i.pravatar.cc/40?img=24",
       },
     ],
   },
@@ -236,6 +260,7 @@ const trips = [
         codiceFiscale: "MHLCNT07M36H525B",
         email: "michele.cattaneo@example.com",
         phone: "+393355556677",
+        avatar: "https://i.pravatar.cc/40?img=25",
       },
       {
         firstName: "Eva",
@@ -243,6 +268,7 @@ const trips = [
         codiceFiscale: "EVAFRR08M37H526A",
         email: "eva.ferri@example.com",
         phone: "+393356667788",
+        avatar: "https://i.pravatar.cc/40?img=26",
       },
       {
         firstName: "Giorgio",
@@ -250,6 +276,7 @@ const trips = [
         codiceFiscale: "GRGMNR09M38H527Z",
         email: "giorgio.mariani@example.com",
         phone: "+393357778899",
+        avatar: "https://i.pravatar.cc/40?img=27",
       },
       {
         firstName: "Claudia",
@@ -257,6 +284,7 @@ const trips = [
         codiceFiscale: "CLDTST10M39H528Y",
         email: "claudia.testa@example.com",
         phone: "+393358889900",
+        avatar: "https://i.pravatar.cc/40?img=28",
       },
       {
         firstName: "Fabio",
@@ -264,6 +292,7 @@ const trips = [
         codiceFiscale: "FBEGNT11M40H529X",
         email: "fabio.gentile@example.com",
         phone: "+393359990011",
+        avatar: "https://i.pravatar.cc/40?img=29",
       },
       {
         firstName: "Monica",
@@ -271,6 +300,7 @@ const trips = [
         codiceFiscale: "MNCPLM12M41H530W",
         email: "monica.palumbo@example.com",
         phone: "+393360001122",
+        avatar: "https://i.pravatar.cc/40?img=30",
       },
     ],
   },
@@ -291,6 +321,7 @@ const trips = [
         codiceFiscale: "STFLMB13M42H531V",
         email: "stefano.lombardi@example.com",
         phone: "+393361112233",
+        avatar: "https://i.pravatar.cc/40?img=31",
       },
       {
         firstName: "Arianna",
@@ -298,6 +329,7 @@ const trips = [
         codiceFiscale: "ARNFTN14M43H532U",
         email: "arianna.fontana@example.com",
         phone: "+393362223344",
+        avatar: "https://i.pravatar.cc/40?img=32",
       },
       {
         firstName: "Enrico",
@@ -305,6 +337,7 @@ const trips = [
         codiceFiscale: "ENCSNN15M44H533T",
         email: "enrico.sanna@example.com",
         phone: "+393363334455",
+        avatar: "https://i.pravatar.cc/40?img=33",
       },
       {
         firstName: "Veronica",
@@ -312,6 +345,7 @@ const trips = [
         codiceFiscale: "VRNRGG16M45H534S",
         email: "veronica.ruggiero@example.com",
         phone: "+393364445566",
+        avatar: "https://i.pravatar.cc/40?img=34",
       },
       {
         firstName: "Massimo",
@@ -319,6 +353,7 @@ const trips = [
         codiceFiscale: "MSSSRT17M46H535R",
         email: "massimo.sorrentino@example.com",
         phone: "+393365556677",
+        avatar: "https://i.pravatar.cc/40?img=35",
       },
       {
         firstName: "Camilla",
@@ -326,6 +361,7 @@ const trips = [
         codiceFiscale: "CMLDNG18M47H536Q",
         email: "camilla.dangelo@example.com",
         phone: "+393366667788",
+        avatar: "https://i.pravatar.cc/40?img=36",
       },
     ],
   },

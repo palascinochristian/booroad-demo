@@ -5,15 +5,15 @@ export default function SearchBar({ setter }) {
 
   const handleField = (value) => {
     setSearch(value);
+    setter(search);
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setter(search);
   };
 
   return (
-    <div className="m-auto flex max-w-6xl">
+    <div className="w-80">
       <form
         onSubmit={handleSubmit}
         className="flex border border-gray-300 rounded-md overflow-hidden shadow-sm focus-within:border-blue-500"

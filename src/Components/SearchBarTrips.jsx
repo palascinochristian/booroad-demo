@@ -9,12 +9,12 @@ export default function SearchBarTrips({ setSearch }) {
     <>
       <form
         action=""
-        className="flex mb-2 mt-6 mx-auto  max-w-sm border border-gray-300 rounded-md overflow-hidden shadow-sm focus-within:border-blue-500"
+        className="flex mb-2 mt-6 mx-auto  max-w-sm border border-gray-300 rounded-md overflow-hidden shadow-sm focus-within:border-blue-500 bg-amber-50"
       >
         <input
           onChange={(e) => handleField(e.target.value)}
           type="text"
-          placeholder="cerca..."
+          placeholder="Cerca..."
           className=" px-3 py-2 outline-none flex-grow "
         />
         <button

@@ -36,20 +36,22 @@ export default function TripPage() {
 
         {/* SEZIONE PARTECIPANTI */}
         <div className="bg-white p-6 rounded-lg shadow-md">
-          <div className="flex justify-between-">
+          <div className="flex justify-between mb-6">
             <h2 className="text-2xl font-semibold mb-4 flex justify-between items-center">
               Partecipanti
             </h2>
             <SearchBar setter={setMember} />
           </div>
           <Accordion member={member} trip={trip.participants || []} />
+          <ParticipantFormButton
+            setOverlay={setOverlay}
+          ></ParticipantFormButton>
+          <ParticipantForm
+            isOverlay={isOverlay}
+            setOverlay={setOverlay}
+          ></ParticipantForm>
         </div>
       </div>
-      <ParticipantFormButton setOverlay={setOverlay}></ParticipantFormButton>
-      <ParticipantForm
-        isOverlay={isOverlay}
-        setOverlay={setOverlay}
-      ></ParticipantForm>
     </>
   );
 }

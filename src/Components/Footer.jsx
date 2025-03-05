@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-amber-50 text-gray-800 p-8 shadow-lg mt-12">
+    <footer className="bg-amber-50 text-gray-800 p-8 shadow-lg ">
       <div className="container mx-auto text-center">
         {/* Sezione principale */}
         <div className="mb-4">

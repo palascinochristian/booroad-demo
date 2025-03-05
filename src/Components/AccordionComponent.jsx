@@ -38,8 +38,7 @@ export default function AccordionComponent({ partecipant, name }) {
             src={partecipant.avatar}
             alt=""
           />
-          <h1 className="font-medium">{partecipant.lastName}</h1>
-          <h1 className="font-medium">{partecipant.firstName}</h1>
+          <h2 className="font-medium">{`${partecipant.lastName} ${partecipant.firstName}`}</h2>
         </div>
 
         {/* Icona + e - */}

@@ -1,30 +1,21 @@
-import { useState } from "react";
+import { use, useState } from "react";
 
-export default function SearchBar({ setter }) {
-  const [search, setSearch] = useState("");
-
+export default function SearchBarTrips({ setSearch }) {
   const handleField = (value) => {
     setSearch(value);
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setter(search);
-  };
-
   return (
-    <div className="m-auto flex max-w-6xl">
+    <>
       <form
-        onSubmit={handleSubmit}
-        className="flex border border-gray-300 rounded-md overflow-hidden shadow-sm focus-within:border-blue-500"
+        action=""
+        className="flex mb-2 mt-6 mx-auto  max-w-sm border border-gray-300 rounded-md overflow-hidden shadow-sm focus-within:border-blue-500"
       >
         <input
-          name="search"
-          type="text"
-          placeholder="Cerca partecipanti..."
-          value={search}
           onChange={(e) => handleField(e.target.value)}
-          className="flex-grow px-3 py-2 outline-none"
+          type="text"
+          placeholder="cerca..."
+          className=" px-3 py-2 outline-none flex-grow "
         />
         <button
           type="submit"
@@ -46,6 +37,6 @@ export default function SearchBar({ setter }) {
           </svg>
         </button>
       </form>
-    </div>
+    </>
   );
 }

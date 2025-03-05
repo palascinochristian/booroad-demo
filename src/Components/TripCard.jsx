@@ -13,7 +13,7 @@ export default function TripCard({
     <Link to={link} className="block">
       <div className="bg-white shadow-lg rounded-2xl w-75 border border-gray-200 transform transition duration-300 hover:scale-105 mx-auto">
         <div className>
-          <h2 className=" bg-cyan-700 rounded-t-2xl text-xl font-semibold text-gray-50 p-2 mb-0 z-10 relative shadow-[0px_5px_10px_rgba(0,0,0,0.4)]">
+          <h2 className=" bg-stone-700 rounded-t-2xl text-xl font-semibold text-gray-50 p-2 mb-0 z-10 relative shadow-[0px_5px_10px_rgba(0,0,0,0.4)]">
             {destination}
           </h2>
         </div>

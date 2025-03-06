@@ -9,7 +9,7 @@ export default function SearchBarTrips({ setSearch }) {
     <>
       <form
         action=""
-        className="flex mb-5 mt-6 mx-auto  max-w-sm border border-gray-300 rounded-md overflow-hidden shadow-sm focus-within:border-blue-500 bg-amber-50"
+        className="flex mb-8 mt-6 mx-auto  max-w-sm border border-gray-300 rounded-md overflow-hidden shadow-sm focus-within:border-blue-500 bg-amber-50"
       >
         <input
           onChange={(e) => handleField(e.target.value)}

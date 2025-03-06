@@ -27,7 +27,7 @@ export default function Home() {
   };
 
   return (
-    <div className="p-4">
+    <div className="p-4 pb-10">
       <SearchBarTrips setSearch={setSearch} />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -41,7 +41,7 @@ export default function Home() {
               <div className="bg-neutral-300 h-full p-2 rounded-2xl flex">
                 <div className="bg-neutral-100 w-60 h-3/4 rounded-full mx-auto mt-4 flex items-center justify-center">
                   <span className="text-[150px]">
-                    <i className="fa-solid fa-plus text-neutral-500 hover:text-neutral-700 transition-all duration-300 hover:scale-110"></i>
+                    <i className="fa-solid fa-plus text-stone-500 hover:text-stone-700 transition-all duration-300 hover:scale-110"></i>
                   </span>
                 </div>
               </div>

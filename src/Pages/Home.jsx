@@ -37,8 +37,8 @@ export default function Home() {
             onClick={setTrue}
             className="bg-white shadow-lg rounded-2xl w-75 h-95 border border-gray-200 transform transition duration-300 hover:scale-105 mx-auto"
           >
-            <div className="bg-neutral-100 h-95 rounded-2xl static drop-shadow-[0_5px_5px_rgba(0,0,0,0.3)]">
-              <div className="bg-neutral-300 h-full p-2 rounded-2xl flex">
+            <div className="bg-stone-700 h-95 rounded-2xl static drop-shadow-[0_5px_5px_rgba(0,0,0,0.3)]">
+              <div className="bg-stone-400 h-full p-2 rounded-2xl flex">
                 <div className="bg-neutral-100 w-60 h-3/4 rounded-full mx-auto mt-4 flex items-center justify-center">
                   <span className="text-[150px]">
                     <i className="fa-solid fa-plus text-stone-500 hover:text-stone-700 transition-all duration-300 hover:scale-110"></i>

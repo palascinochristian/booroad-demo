@@ -43,11 +43,11 @@ export default function AccordionComponent({ partecipant, name }) {
 
         {/* Icons */}
         <div className="flex items-center gap-2">
-          <button className="text-gray-500 hover:text-green-200 transition duration-200 text-xs">
-            <i className="fa-solid fa-pencil-alt text-lg"></i>
+          <button className="text-gray-500 hover:text-green-400 transition duration-200 text-xs">
+            <i className="fa-solid fa-pencil-alt text-lg cursor-pointer"></i>
           </button>
           <button className="text-gray-500 hover:text-red-500 transition duration-200 text-xs">
-            <i className="fa-solid fa-trash text-lg"></i>
+            <i className="fa-solid fa-trash text-lg cursor-pointer"></i>
           </button>
           <div className="text-gray-500 transition-transform duration-200">
             {isActive ? (

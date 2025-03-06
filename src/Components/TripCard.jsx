@@ -18,10 +18,10 @@ export default function TripCard({
           </span>
           <div className="flex gap-2">
             <button className="text-gray-300 hover:text-green-400 transition duration-200 text-sm">
-              <i className="fa-solid fa-pencil-alt text-lg"></i>
+              <i className="fa-solid fa-pencil-alt text-lg cursor-pointer"></i>
             </button>
             <button className="text-gray-300 hover:text-red-500 transition duration-200 text-sm">
-              <i className="fa-solid fa-trash text-lg"></i>
+              <i className="fa-solid fa-trash text-lg cursor-pointer"></i>
             </button>
           </div>
         </div>

@@ -16,7 +16,7 @@ export default function SearchBar({ setter }) {
     <div className="w-80">
       <form
         onSubmit={handleSubmit}
-        className="flex border border-gray-300 rounded-md overflow-hidden shadow-sm focus-within:border-blue-500"
+        className="flex border border-gray-300 rounded-md overflow-hidden shadow-sm focus-within:border-stone-700 cursor-pointer"
       >
         <input
           name="search"

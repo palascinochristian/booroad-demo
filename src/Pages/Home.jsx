@@ -41,7 +41,7 @@ export default function Home() {
               <div className="bg-stone-400 h-full p-2 rounded-2xl flex">
                 <div className="bg-neutral-100 w-60 h-3/4 rounded-full mx-auto mt-4 flex items-center justify-center">
                   <span className="text-[150px]">
-                    <i className="fa-solid fa-plus text-stone-500 hover:text-stone-700 transition-all duration-300 hover:scale-110"></i>
+                    <i className="fa-solid fa-plus text-stone-500 hover:text-stone-700 transition-all duration-300 hover:scale-110 cursor-pointer"></i>
                   </span>
                 </div>
               </div>
